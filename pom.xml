@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -29,6 +30,21 @@
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+=======
+		<version>3.4.2</version> 
+		<relativePath/> 
+	</parent>
+	<groupId>AmazonPayment</groupId>
+	<artifactId>ZZ_Jwt_Security</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ZZ_Jwt_Security</name>
+	<description>StudentDetailApi project for Spring Boot</description>
+	
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+    
+>>>>>>> fa1c3ee4696042d376e0f72308201555121b0463
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -42,7 +58,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> fa1c3ee4696042d376e0f72308201555121b0463
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -69,11 +88,31 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+		
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId> 
+			<version>0.11.5</version>
+		</dependency>
+>>>>>>> fa1c3ee4696042d376e0f72308201555121b0463
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
+<<<<<<< HEAD
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -86,6 +125,8 @@
 				</configuration>
 			</plugin>
 			<plugin>
+=======
+>>>>>>> fa1c3ee4696042d376e0f72308201555121b0463
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
@@ -99,5 +140,9 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
 
 </project>
+=======
+</project>
+>>>>>>> fa1c3ee4696042d376e0f72308201555121b0463
